@@ -12,5 +12,6 @@ public class oddEven {
         } else {
             System.out.println("Even");
         }
+        scanner.close();
     }
 }
