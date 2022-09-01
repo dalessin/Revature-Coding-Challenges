@@ -5,13 +5,15 @@
      Scanner scanner = new Scanner(System.in);
      Boolean running = true;
 
-     while(running)
-     {
-         System.out.println(
-                 "Welcome to Nick's coding challenges! To see a program in action, enter the digit and then the Enter key!");
-         String input = scanner.nextLine();
-
-         switch (input) {
+    //  while(running)
+    //  {
+    //      System.out.println(
+    //              "Welcome to Nick's coding challenges! To see a program in action, enter the digit and then the Enter key!");
+    //      String input = scanner.nextLine();
+    //  }
+    // }
+}
+//         switch (input) {
 //             case "1":
 
 //                 String usernameInput = inputUtil.retrieveString("Username:\t");
@@ -52,7 +54,3 @@
 //             default:
 //                 System.out.println("Please select a valid option 1-3");
 //                 break;
-         }
-
-     }
- }
